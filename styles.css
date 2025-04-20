@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #0056b3;
+}
+
+header {
+    background-color: #333;
+    color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 36px;
+}
+
+.job-listings {
+    padding: 50px;
+    background-color: #e9ecef;
+}
+
+.job-listings h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.job {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.job h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.job a:hover {
+    background-color: #0056b3;
+}
+
+.apply-form {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.apply-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.apply-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.apply-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.apply-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.apply-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
